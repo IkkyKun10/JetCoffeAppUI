@@ -9,6 +9,7 @@ data class Category (
     @StringRes val textCategory: Int,
 )
 
+
 val dummyCategory: List<Category> = listOf<Pair<Int, Int>>(
     R.drawable.icon_category_all to R.string.category_all,
     R.drawable.icon_category_americano to R.string.category_americano,
